@@ -26,7 +26,7 @@
     About us:
     \begin{itemize}
         \item One of the largest Plant Biology Resources
-        \item Own Bare-metal server
+        \item Paper published in 2005
         \item Based in University of Toronto, Canada
         \item Free to access
     \end{itemize}
@@ -38,5 +38,86 @@
         \item Protein structures (ePlant)
     \end{itemize}
 \end{frame}
+
+\begin{frame}
+    \frametitle{Araport: Arabidopsis Information Portal}
+    A centralized resource for Arabidopsis data
+    \begin{itemize}
+        \item Started in 2013 under the leadership of Prof. Chris Town (JCVI)
+        \item JCVI, TACC, University of Cambridge
+        \item Drupal 7 based araport.org page
+        \item ThaleMine (InterMine instance)
+        \item App store on araport.org
+        \item JBrowse
+        \item Araport11 reannotation project
+        \item Single Sign on to all Araport resources
+        \item RESTful API for scientific data
+        \item Community outreach (workshops, conferences, etc)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Araport: Arabidopsis Information Portal}
+    BAR contibution to Araport
+    \begin{itemize}
+        \item Provided gene expression database used by BAR eFP Arabidopsis Browser
+        \item Attended Araport workshop/hackathon in November 2014
+        \item Interactions Viewer - the first community app published on Araport.org
+        \item Contributed serveral apps and APIs over the next few years.
+        \item Biggest contribution: BAR ePlant app.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Araport: Arabidopsis Information Portal}
+    Funding status
+    \begin{itemize}
+        \item Lost all funding in 2016
+        \item Lost almost all staff 
+        \item New application for funding failed
+    \end{itemize}
+    Future of Araport team
+    \begin{itemize}
+        \item JCVI, TACC, BAR, TAIR, NCGR
+        \item First meeting at JCVI in March, 2019
+        \item BAR got ThaleMine, TAIR got JBrowse, NCGR contributed GCV
+        \item Every thing else was depricated
+        \item News Update: araport.org
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Araport ThaleMine to BAR ThaleMine}
+    Araport ThaleMine: A few minor problems
+    \begin{itemize}
+        \item Not maintained since 2017
+        \item Based on InterMine 1.8.5
+        \item Used modified data
+        \item Used several custom loader and displayers
+        \item Some InterMine core and biosource changes where never made upstreams
+        \item To difficult to upgrade to InterMine 3.1.2
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{BAR ThaleMine: Principles}
+    No initial funding. So we follow these rules
+    \begin{description}
+        \item [Simplicity] Keep code to minimum possible lines and contribute as many changes to InterMine (upstream) as possible.
+        \item [Least Surprise] Test and upgrade every minor release (Principle of least astonishment)
+        \item [Clarity] No modification to data
+        \item [Extensibility] Build for the future (Java 11, etc)
+        \item [Parsimony] Write loaders and displayers only when we have to.
+    \end{description}
+\end{frame}
+
+\begin{frame}
+    \frametitle{}
+    \begin{itemize}
+        \item
+        \item
+    \end{itemize}
+\end{frame}
+
 
 \end{document}
