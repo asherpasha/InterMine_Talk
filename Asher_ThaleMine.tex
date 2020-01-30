@@ -8,6 +8,7 @@
 \setbeamerfont{footnote}{size=\tiny}
 
 \usepackage{graphicx}
+\usepackage{multicol}
 
 % Package for URLs
 \usepackage{hyperref}
@@ -17,6 +18,8 @@
 % Citations
 \usepackage[style=authoryear,backend=bibtex]{biblatex}
 \bibliography{Asher_ThaleMine}
+
+\newcommand{\textemphb}[1]{\emph{\textcolor{beamerblue}{#1}}}
 
 \begin{document}
 \title[BAR ThaleMine] 
@@ -52,6 +55,14 @@
         \item Protein-Protein, Protein-DNA Interactions (\href{http://bar.utoronto.ca/interactions2}{AIV2})
         \item Protein structures (ePlant)
     \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{BAR: Bio-Analytic Resource}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\columnwidth]{img/BAR.png}
+    \end{figure}
 \end{frame}
 
 \begin{frame}
@@ -189,6 +200,44 @@
 
 \begin{frame}
     \frametitle{Acknowledgements}
+        \begin{multicols}{3}
+            \textemphb{BAR}\\
+            Nicholas Provart\\
+            \vspace{\baselineskip}
+            \textemphb{JCVI}\\
+            Agnes Chan\\
+            Christopher Town\\
+            Todd Michael\\
+            Donna Holesinger\\
+            \vspace{\baselineskip}
+            \textemphb{TACC}\\
+            Erik Ferlanti\\
+            \vspace{\baselineskip}
+            \textemphb{NCGR}\\
+            Andrew Farmer\\
+            Sam Hokin\\
+            \vspace{\baselineskip}
+            \textemphb{TAIR}\\
+            Tanya Berardini\\
+            Shabari Subramaniam\\
+            Eva Huala\\
+            \vspace{\baselineskip}
+            \textemphb{Others}\\
+            Eric Lyons\\
+            Vivek Krishnakumar\\
+            Blake Meyers\\
+            \vspace{\baselineskip}
+            \textemphb{InterMine Staff} \\
+            Yo Yehudi\\
+            Sergio Contrino\\
+            Daniela Butano\\
+            \vspace{\baselineskip}
+            \textemphb{Initial R. A. funding}\\
+            University of Toronto\\
+            \vspace{\baselineskip}
+            \textemphb{Travel funding}\\
+            NSF\\
+        \end{multicols}
 \end{frame}
 
 \end{document}
