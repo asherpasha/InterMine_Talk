@@ -73,6 +73,18 @@
 
 \begin{frame}
     \frametitle{Araport: Arabidopsis Information Portal}
+    BAR contribution to Araport
+    \begin{itemize}
+        \item Provided gene expression databases used by BAR eFP Arabidopsis Browser
+        \item Attended Araport workshop in November 2014
+        \item Interactions Viewer - the first community app published on araport.org
+        \item Contributed serveral apps and web services over the next few years
+        \item Biggest contribution: BAR ePlant app
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Araport: Arabidopsis Information Portal}
     \begin{figure}[H]
         \centering
         \includegraphics[width=\columnwidth]{img/Araport2017.png}
@@ -81,32 +93,28 @@
 
 \begin{frame}
     \frametitle{Araport: Arabidopsis Information Portal}
-    BAR contibution to Araport
-    \begin{itemize}
-        \item Provided gene expression database used by BAR eFP Arabidopsis Browser
-        \item Attended Araport workshop/hackathon in November 2014
-        \item Interactions Viewer - the first community app published on Araport.org
-        \item Contributed serveral apps and APIs over the next few years.
-        \item Biggest contribution: BAR ePlant app.
-    \end{itemize}
-\end{frame}
-
-\begin{frame}
-    \frametitle{Araport: Arabidopsis Information Portal}
     Funding status
     \begin{itemize}
         \item Lost all funding in 2016
         \item Lost almost all staff 
-        \item New application for funding failed
+        \item Application for new funding failed
     \end{itemize}
     Future of Araport team
     \begin{itemize}
         \item JCVI, TACC, BAR, TAIR, NCGR
         \item First meeting at JCVI in March, 2019
         \item BAR got ThaleMine, TAIR got JBrowse, NCGR contributed GCV
-        \item Every thing else was depricated
-        \item News Update: araport.org
+        \item Everything else was deprecated
+        \item News update: araport.org
     \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Araport: Arabidopsis Information Portal}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\columnwidth]{img/Araport2020.png}
+    \end{figure}
 \end{frame}
 
 \begin{frame}
@@ -117,19 +125,19 @@
         \item Based on InterMine 1.8.5
         \item Used modified data
         \item Used several custom loader and displayers
-        \item Some InterMine core and biosource changes where never made upstreams
+        \item Some InterMine core and biosources changes where never made upstream
         \item To difficult to upgrade to InterMine 3.1.2
     \end{itemize}
 \end{frame}
 
 \begin{frame}
     \frametitle{BAR ThaleMine: Principles}
-    No initial funding. So we follow these rules
+    No initial funding. So we follow these rules\footcite{raymond2003}
     \begin{description}
         \item [Simplicity] Keep code to minimum possible lines and contribute as many changes to InterMine (upstream) as possible.
         \item [Least Surprise] Test and upgrade every minor release (Principle of least astonishment)
         \item [Clarity] No modification to data
-        \item [Extensibility] Build for the future (Java 11, etc)
+        \item [Extensibility] Build for the near future (Java 11, etc)
         \item [Parsimony] Write loaders and displayers only when we have to.
     \end{description}
 \end{frame}
@@ -137,37 +145,45 @@
 \begin{frame}
     \frametitle{BAR ThaleMine}
     \begin{itemize}
-        \item We started from scratch (using make mine script)
-        \item Based on Humanmine, FlyMine, and Araport ThaleMine
+        \item We started from scratch (using make\_mine script)
+        \item Progress based on HumanMine, FlyMine, and Araport ThaleMine
         \item Got most of the loaders working
         \item Pushed changed to upstream InterMine
         \item So far: ThaleMine v4.1.2-20200127
-        \item Also on GitHub ThaleMine and ThaleMine Bio Sources
+        \item Also on GitHub \href{https://github.com/asherpasha/thalemine}{ThaleMine} and \href{https://github.com/asherpasha/thalemine-bio-sources}{ThaleMine BioSources}
     \end{itemize}
 \end{frame}
 
 \begin{frame}
-    \frametitle{BAR ThaleMine: What's working}
-    \begin{itemize}
-        \item data categories figure
-        \item
-    \end{itemize}
+    \frametitle{ThaleMine: What's Working}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\columnwidth]{img/ThaleMine.png}
+    \end{figure}
 \end{frame}
 
 \begin{frame}
-    \frametitle{BAR ThaleMine: Some future plans and Known Issues}
+    \frametitle{ThaleMine: What's Working}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\columnwidth]{img/ThaleMineData.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{BAR ThaleMine: Some Future Plans and Known Issues}
     The follow is planned
     \begin{itemize}
-        \item Arabidopsis Strains
-        \item Gene expression data (Araport11 RNA-Seq)
+        \item Arabidopsis Strains\footcite{strains2019}
+        \item Gene expression data (Araport11 RNA-Seq\footcite{cheng2017})
         \item Salk data (TDNA-Seq)
-        \item Gene histories
-        \item TAIR annotations
+        \item Gene histories from JCVI
+        \item TAIR annotations 
     \end{itemize}
     Known Issues
     \begin{itemize}
-        \item web properties from ThaleMine web service
-        \item Bluegene frontend
+        \item \href{https://bar.utoronto.ca/thalemine/service/web-properties}{web properties} from ThaleMine web services
+        \item BlueGenes frontend
     \end{itemize}
 \end{frame}
 
